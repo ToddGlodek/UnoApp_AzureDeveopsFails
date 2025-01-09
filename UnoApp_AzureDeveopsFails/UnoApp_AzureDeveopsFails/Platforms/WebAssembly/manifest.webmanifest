@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "UnoApp_AzureDeveopsFails",
+  "display": "standalone",
+  "name": "UnoApp_AzureDeveopsFails",
+  "short_name": "UnoApp_AzureDeveopsFails",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

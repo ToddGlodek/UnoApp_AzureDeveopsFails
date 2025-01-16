@@ -246,12 +246,16 @@ if ($InstallWindowsSDK)
     {
         # Workaround for removed SDK
         $uri = "https://go.microsoft.com/fwlink/?linkid=2083448";
+
     }
 
     if($buildNumber -eq 19041)
     {
         # Workaround for missing SDK
-        $uri = "https://software-download.microsoft.com/download/pr/19041.1.191206-1406.vb_release_WindowsSDK.iso";
+        #  $uri = "https://software-download.microsoft.com/download/pr/19041.1.191206-1406.vb_release_WindowsSDK.iso";
+
+        # Workaround for missing SDK as part of https://github.com/unoplatform/uno/discussions/19184
+        $uri = "https://go.microsoft.com/fwlink/?linkid=2120735";
     }
 
     if ($env:TEMP -eq $null)
